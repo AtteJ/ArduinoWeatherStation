@@ -1,7 +1,6 @@
+// Include libraries
 #include <LiquidCrystal.h>
-
 #include <Adafruit_Sensor.h>
-
 #include <DHT.h> // From https://github.com/adafruit/DHT-sensor-library
 #include <DHT_U.h>
 
