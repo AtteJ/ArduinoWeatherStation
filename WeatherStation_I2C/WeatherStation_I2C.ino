@@ -28,6 +28,7 @@ void loop() {
   lcd.setCursor(0, 0);
   lcd.print("TEMP     ");
   lcd.print(temp);
+  lcd.print((char)223); // Prints a degree symbol
   lcd.print("C"); 
   lcd.setCursor(0,1);
   lcd.print("HUMIDITY ");
